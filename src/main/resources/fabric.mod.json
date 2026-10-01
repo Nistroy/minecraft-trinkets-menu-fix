@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "trinketsmenufix",
+	"version": "${version}",
+	"name": "Correctif des emplacements Trinkets figés",
+	"description": "Quand un autre écran d'inventaire joueur est créé (écran accessoires d'Aether), Trinkets recrée les inventaires de ses emplacements sans rebrancher l'inventaire du joueur : retirer un objet le duplique, en poser un le perd. Ce mod rebranche l'inventaire du joueur.",
+	"authors": [
+		"nistroy"
+	],
+	"contact": {
+		"sources": "https://github.com/Nistroy/minecraft-trinkets-menu-fix",
+		"issues": "https://github.com/Nistroy/minecraft-trinkets-menu-fix/issues"
+	},
+	"license": "GPL-3.0-only",
+	"environment": "*",
+	"mixins": [
+		"trinketsmenufix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"trinkets": "3.10.0"
+	}
+}
