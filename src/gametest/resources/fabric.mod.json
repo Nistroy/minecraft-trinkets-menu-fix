@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "trinketsmenufix-test",
+	"version": "1.0.0",
+	"name": "Correctif des emplacements Trinkets figés — tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"io.github.nistroy.trinketsmenufix.test.InventoryMenuRebindGameTest"
+		]
+	},
+	"depends": {
+		"trinketsmenufix": "*"
+	}
+}
